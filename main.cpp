@@ -46,7 +46,7 @@ int main() {
     const int len = TwoxNum.length();
 
 
-    int index = len-1;
+    int index = len - 1;
     int number = 0;
     for (int i = 0; i < len; i++ )
     {
