@@ -71,7 +71,7 @@ int main() {
     x16 = to16xfrom10(x16, number);
 
 
-    reverse( x16.begin(), x16.end() ); 
+    reverse( x16.begin(), x16.end() );
     cout << "Число в 16-ой:            " << x16 << endl;
 
     return 0;
