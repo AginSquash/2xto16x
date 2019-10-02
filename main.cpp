@@ -54,6 +54,10 @@ int main() {
         if (TwoxNum[i] == '1' )
         {
             number += to10from2( index );
+        } else if ( TwoxNum[i] != '0' )
+        {
+            cout << "Число не является двоичным!" << endl;
+            exit(1);
         }
         index--;
     }
